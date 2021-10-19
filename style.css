@@ -69,3 +69,27 @@ aside {
   .a2{
       text-decoration: none;
   }
+  @media only screen and (max-width: 522px) {
+   img{
+      width: 0px;
+      height: 0px; 
+   }
+   form{
+    margin-left: 100px;
+   }
+   aside {
+    width: 0%;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    background-color: black;
+    margin-top: 0px;
+    margin-right: 0px;
+  };
+  .yt{
+    margin-left: 20px;
+    text-decoration: none;
+}
+  }
